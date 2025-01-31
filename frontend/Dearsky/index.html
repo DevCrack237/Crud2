@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    #preloader {
+      background-color: black;
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      transition: all, 1s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: xx-large;
+      color: aliceblue;
+      overflow-y: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="preloader"> LOADING 🖐 . . . </div>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    var preloader = document.getElementById('preloader')
+    function handleLoad() {
+      preloader.style.display = 'none'
+    }
+    window.addEventListener('load', handleLoad)
+
+
+  </script>
+</body>
+
+</html>

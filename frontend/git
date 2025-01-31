@@ -1,0 +1,53 @@
+[33mcommit 6d03a4dabedec2219ab306ff7beeac3b2c645e1f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Jacques Leroi <fjlswe@gmail.com>
+Date:   Thu Jan 23 16:09:44 2025 +0100
+
+     Search Filter Implemented !
+
+[33mcommit b0ddf4eb1b7fe2f8fbbc9fa4c489ce303eda8686[m
+Author: Jacques Leroi <fjlswe@gmail.com>
+Date:   Wed Jan 22 03:31:32 2025 +0100
+
+     Edit page terminated at 80%
+
+[33mcommit 5a9c8c704a8cd443be8142be94f89bf050e60d6a[m
+Author: Jacques Leroi <fjlswe@gmail.com>
+Date:   Wed Jan 22 01:34:53 2025 +0100
+
+     Adding key to each child !
+
+[33mcommit 4e9fb61d95d23ca7907a380b119177dd0065bcba[m
+Author: Jacques Leroi <fjlswe@gmail.com>
+Date:   Wed Jan 22 01:32:18 2025 +0100
+
+     Done with the AddPage front Logic !
+
+[33mcommit 8413ddcb8d84c0cd44d17e793dfb8d6916b42f38[m
+Author: Jacques Leroi <fjlswe@gmail.com>
+Date:   Wed Jan 22 00:30:55 2025 +0100
+
+     Done with the AddPage design !
+
+[33mcommit 5d7eef202c6c18cfc196622e82f369ccb526abfe[m
+Author: Jacques Leroi <fjlswe@gmail.com>
+Date:   Tue Jan 21 02:33:04 2025 +0100
+
+     Done with Fetching and Displaying data from mongoDB !
+
+[33mcommit 610d6339791c04cf5edef762d16916ac9590c985[m
+Author: Jacques Leroi <fjlswe@gmail.com>
+Date:   Mon Jan 20 21:32:12 2025 +0100
+
+     functions declarations for edit and delete done!
+
+[33mcommit 5f937ef1eb8301b05bb49a159f6aafa833e17064[m
+Author: Jacques Leroi <fjlswe@gmail.com>
+Date:   Mon Jan 20 00:24:20 2025 +0100
+
+     Header with search filter option design added !
+
+[33mcommit 72b666f61ba47a9d65bf2fb73ffd823de845ae82[m
+Author: Jacques Leroi <fjlswe@gmail.com>
+Date:   Sun Jan 19 23:58:35 2025 +0100
+
+     Routing Completed with toast added !
