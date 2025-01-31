@@ -27,7 +27,10 @@ app.use(express.json())
 mongoose.connect("mongodb+srv://fjlswe:ji2pbSPt6R7kvLMR@cluster0.bjmut.mongodb.net/Employee-management-system?retryWrites=true&w=majority&appName=Cluster0")
 // console.log("ji2pbSPt6R7kvLMR")
 
-
+app.get("/", (req, res) => {
+    res.send(" Successfull Bro! ")
+}
+        
 app.get("/getUsers", (req, res) => {
     UserModel.find()
         .then(data => res.json(data))
