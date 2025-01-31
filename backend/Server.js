@@ -19,7 +19,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: ALL,
+    origin: ["https://crud2front.vercel.app/"],
     methods: ["GET", "POST", "PATCH", "DELETE"],
     credentials: true
 }))
